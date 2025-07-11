@@ -26,7 +26,7 @@
 }
 .first-btn:hover {
   color: black;
-  background-color: yellow;
+  background-color: rgb(255, 0, 234);
 }
 
 body {
@@ -280,9 +280,47 @@ body {
   height: 75px;
 }
 .part-fm .first-btn{
-  width: 115%;     /*   ? width 100% not working, I don't know why */
+  width: 115%;   
 }
 
 
+/*footer*/
+
+.ftr {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0 80px;
+  background: #fff;
+}
+
+.ftr-headline h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+.ftr-headline p {
+  color: #8987a1;
+  margin: 15px 0 20px;
+}
+
+.ftr-menu ul {
+  list-style: none;
+}
+.ftr-menu li {
+  display: inline;
+  padding: 25px;
+}
+.ftr-menu a {
+  text-decoration: none;
+  color: #8987a1;
+  transition: color 0.5s ease;
+}
+.ftr-menu a:hover {
+  color: #fa5494;
+  font-weight: bolder;
+}
 
 
